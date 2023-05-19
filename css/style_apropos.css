@@ -1,0 +1,31 @@
+body {
+    background-color: #EDEDE9;
+}
+
+header {
+    background-color: #D5BDAF;
+    padding: 25px 25px 25px 25px;
+    position: sticky;
+    height: 100px;
+    /* box-shadow: 2px 2px 10px; */
+}
+
+.button {
+    /* background-color: #E3D5CA; */
+    padding: 15px 25px;
+    color: #463f3a;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 4px 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #E3D5CA;
+}
+
+#logo {
+    height: 100px;
+    float: right;
+}
