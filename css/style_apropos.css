@@ -29,3 +29,49 @@ header {
     height: 100px;
     float: right;
 }
+
+h1 {
+    color: #463f3a;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    background-color: #D5BDAF;
+    position: relative;
+    bottom: 2px;
+    width: 100%;
+}
+
+#foot {
+    border: none;
+    background-color: none;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+}
+
+#theadFoot {
+    font-size: 20px;
+
+}
+
+.aFoot {
+    text-decoration: none;
+    color: #000;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    border: none;
+    background-color: none;
+    color: #463f3a;
+    font-size: 15px;
+}
+
+thead {
+    font-size: 25px;
+}
