@@ -27,3 +27,7 @@ img {
     flex-direction: row;
     justify-content: space-around;
 }
+
+h3 {
+    color: #463f3a;
+}
