@@ -41,6 +41,13 @@ h1 {
     text-align: center;
 }
 
+.titrepage {
+    color: #463f3a;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+}
+
 footer {
     background-color: #D5BDAF;
     position: relative;
@@ -119,4 +126,5 @@ thead {
 
 div {
     font-size: 20px;
+    line-height: 1.5;
 }
