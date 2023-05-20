@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+
+        <link rel= "stylesheet" href="../../css/style.css">
+        <link rel= "stylesheet" href="../../css/style_focusProject.css">
+        <script type="text/javascript" src="../../js/script_focusProject.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <a href="../index.html" class="button">Accueil</a>
+                <a href="../portfolio.html" class="button">Portfolio</a>
+                <a href="../focusProject.html" class="button">Focus Projet</a>
+                <a href="../recap.html" class="button">Recapitulatif du projet</a>
+                <img src="../../img/logo.png" id="logo">
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="projectPicture">
+                <div class="numbertext">1 / 5</div>
+                <img src="../../img/Gallerie de portraits /20230329_175130.jpg" style="height:450px">
+            </div>
+
+            <div class="projectPicture">
+                <div class="numbertext">2 / 5</div>
+                <img src="../../img/Gallerie de portraits /20221207_224915.jpg" style="height:450px">
+            </div>
+
+            <div class="projectPicture">
+                <div class="numbertext">3 / 5</div>
+                <img src="../../img/Gallerie de portraits /Snapchat-616219847.jpg" style="height:450px">
+            </div>
+
+            <div class="projectPicture">
+                <div class="numbertext">4 / 5</div>
+                <img src="../../img/Gallerie de portraits /Snapchat-1466610823.jpg" style="height:450px">
+            </div>
+
+            <div class="projectPicture">
+                <div class="numbertext">5 / 5</div>
+                <img src="../../img/Gallerie de portraits /20230519_112333.jpg" style="height:450px">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            
+            <div class="row">
+                <div class="column">
+                    <img class="pictureGlimpse" src="../../img/Gallerie de portraits /20230329_175130.jpg" onclick="currentSlide(1)">
+                </div>
+
+                <div class="column">
+                    <img class="pictureGlimpse" src="../../img/Gallerie de portraits /20221207_224915.jpg" onclick="currentSlide(2)">
+                </div>
+
+                <div class="column">
+                    <img class="pictureGlimpse" src="../../img/Gallerie de portraits /Snapchat-616219847.jpg" onclick="currentSlide(3)">
+                </div>
+
+                <div class="column">
+                    <img class="pictureGlimpse" src="../../img/Gallerie de portraits /Snapchat-1466610823.jpg" onclick="currentSlide(4)">
+                </div>
+
+                <div class="column">
+                    <img class="pictureGlimpse" src="../../img/Gallerie de portraits /20230519_112333.jpg" onclick="currentSlide(5)">
+                </div>
+            </div>
+        </div>
+
+        <script>showSlides(1)</script>
+        
+        <footer>
+            <table id="foot">
+                <thead id="theadFoot">
+                    <tr>
+                        <th>Suivre l'Artiste</th>
+                        <th>Voir les oeuvres</th>
+                        <th>A propos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://www.instagram.com/enora.design.art/" class="aFoot">Instagram</a></td>
+                        <td><a href="../portfolio.html"class="aFoot">Portfolio</a></td>
+                        <td><a href="../aproposartiste.html"class="aFoot">Artiste</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.linkedin.com/in/enora-labidurie-132010197/"class="aFoot">Linkedin</a></td>
+                        <td><a href="../focusProject.html"class="aFoot">Détail des projets</a></td>
+                        <td><a href="../apropos.html"class="aFoot">Développeuses</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="../comissions.html"class="aFoot">Comissions</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </footer>
+    </body>
+</html>
