@@ -65,13 +65,56 @@ header {
     background-color: #E3D5CA;
 }
 
-#imgAccueil {
-    width: 100%;
-    height: 800px;
-    margin-top: 5px;
-}
-
 #logo {
     height: 100px;
     float: right;
+}
+
+.imgAccueil {
+    width: 100%;
+    height: 800px;
+    margin-top: 5px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .imgAccueil {
+    opacity: 0.5;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    padding: 16px 32px;
+    font-size: 20px;
+    background-color: #463f3a;
+    color: #EDEDE9;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+#aText {
+    color: #EDEDE9;
+    text-decoration: none;
+    text-align: center;
 }
