@@ -1,3 +1,29 @@
 h1 {
     color: #463f3a;
 }
+
+table {
+    border: 1px solid #D5BDAF;
+    background-color: none;
+    width: 80%;
+    margin: auto;
+}
+
+td {
+    vertical-align: top;
+}
+
+thead {
+    text-align: center;
+    background-color: #D5BDAF;
+}
+
+img {
+    height: 256px;
+}
+
+.projectPicture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
