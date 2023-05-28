@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
 
         <link rel= "stylesheet" href="../css/style.css">
+        <link rel= "stylesheet" href="../css/style_comissions.css">
     </head>
 
     <body>
@@ -19,7 +20,57 @@
         </header>
 
 
-        
+        <section>
+            <h2>Vous souhaitez contacter l'artiste pour un projet ?</h2>
+
+            <fieldset>
+                <legend>Vos informations</legend>
+                <form action="/action_page.php" >
+                    <input type="checkbox" class = "case">
+                    <label for="Madame">Madame</label>
+
+                    <input type="checkbox" class = "case">
+                    <label for="Monsieur">Monsieur</label>
+
+                    <br> <br>
+                    <label for="lname">Nom :</label>
+                    <input type="text" class = "case">
+                    <label for="lname">Prénom :</label>
+                     <input type="text" class = "case">
+                     <br> <br>
+                    <label for="lname">Adresse mail :</label>
+                    <input type="text" class = "case">
+                </form>
+            </fieldset><br> 
+
+            <fieldset>
+                <legend>Votre projet</legend>
+                <form>
+                     <label for="lname" >Description courte :</label>
+                    <input type="text" class = "case">
+                    <br> <br>
+                    Type de projet :
+                    <select class = "case">
+                        <option value="" class = "case">--Please choose an option--</option>
+                        <option>personnel</option>
+                        <option>Professionel</option>
+                        <option>Associatif</option>
+                    </select><br>
+                </form>
+            </fieldset>
+        <br>
+    
+                <!-- <form class = "formSubmit">
+                    <input type="submit" value="Envoyer">
+                    <input type="reset" value="Annuler">
+                </form> -->
+                <div class="container">
+                    <button class="buttonCommision">Envoyer</button>
+                    <button class="buttonCommision">Annuler</button>
+                </div>
+           
+              <br><br>
+    </section>
         
         <footer>
             <table id="foot">

@@ -1,0 +1,47 @@
+h2 {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+fieldset {
+    text-align: center;
+    padding: 10px;
+
+    border-color: #D5BDAF;
+}
+
+legend {
+    color: #9c7f6f;
+    font-size: 22px;
+}
+
+section {
+    font-family: "trebuchet ms", sans-serif;
+    font-size: 90%;
+}
+
+.formSubmit {
+    text-align: center;
+}
+
+.case {
+    background-color: #e9dfda;
+    border-color: #D5BDAF;
+}
+
+.container {
+    text-align: center;
+}
+
+.buttonCommision {
+    display: inline-block;
+    background-color: #e9dfda;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: solid;
+    border-color: #bea495;
+    border-radius: 5px;
+    margin-right: 10px;
+}

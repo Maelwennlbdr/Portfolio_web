@@ -1,23 +1,26 @@
 .taleauFocus {
-    width: 97%;
+    width: 99%;
     text-align: center;
     margin: 10px;
-    border: 1px solid;
-    border-color: #333;
-    background-color: #e6e1e1;
+    border: 3px solid;
+    border-color: #b89885;
+    background-color: none;
+    /*#e6e1e1; */
     border-style: solid;
 }
 
 h1 {
     text-align: center;
     width: 100%;
-    color: #0f0f0f;
+    color: #000000;
     text-decoration: none;
 
 }
 
-.marge {
+.titre {
     padding: 20px;
+    color: #a88875;
+    font-size: 20px;
 }
 
 .pageFocus {
