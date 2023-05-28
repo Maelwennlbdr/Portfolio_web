@@ -1,0 +1,36 @@
+.taleauFocus {
+    width: 97%;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid;
+    border-color: #333;
+    background-color: #e6e1e1;
+    border-style: solid;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    color: #0f0f0f;
+    text-decoration: none;
+
+}
+
+.marge {
+    padding: 20px;
+}
+
+.pageFocus {
+    text-decoration: none;
+    color: #0f0f0f;
+
+
+}
+
+.pageFocus:hover {
+    background-color: #D5BDAF;
+}
+
+.c1 {
+    padding: 7px;
+}

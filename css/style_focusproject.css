@@ -1,33 +1,69 @@
-h1 {
-    color: #463f3a;
-}
-
-table {
-    border: 1px solid #D5BDAF;
-    background-color: none;
-    width: 80%;
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: auto;
-}
-
-td {
-    vertical-align: top;
-}
-
-thead {
-    text-align: center;
-    background-color: #D5BDAF;
-}
-
-img {
-    height: 256px;
+    width: 40%;
 }
 
 .projectPicture {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: none;
+    text-align: center;
 }
 
-h3 {
+.numbertext {
     color: #463f3a;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    padding: 16px;
+    margin-top: -50px;
+    color: #463f3a;
+    font-size: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+}
+
+
+.pictureGlimpse {
+    opacity: 0.6;
+    height: 100px;
+    margin: auto;
+}
+
+.active,
+.pictureGlimpse:hover {
+    opacity: 1;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    width: auto;
+    margin: auto;
+}
+
+.column {
+    float: left;
+}
+
+img {
+    vertical-align: middle;
 }
