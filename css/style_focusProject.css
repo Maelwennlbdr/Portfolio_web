@@ -82,6 +82,7 @@ img {
 table {
     margin: auto;
     width: 50%;
+    text-align: justify;
 }
 
 h1 {
@@ -96,7 +97,7 @@ h1 {
     justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .fakeTable {
         display: flex;
         flex-direction: column;
