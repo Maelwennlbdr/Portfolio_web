@@ -23,11 +23,8 @@
         
         <h1>Gallerie de portraits</h1>
         
-        <table>
-            <tbody>
-                <tr>
-                    <td  rowspan="2">
-                        <div class="container">
+        <div class="fakeTable">
+            <div class="container">
                             <div class="projectPicture">
                                 <div class="numbertext">1 / 5</div>
                                 <img src="../../img/Gallerie de portraits /20230329_175130.jpg" style="height:450px">
@@ -53,8 +50,8 @@
                                 <img src="../../img/Gallerie de portraits /20230519_112333.jpg" style="height:450px">
                             </div>
 
-                            <a class="prev" onclick="plusSlides(-1)">❮</a>
-                            <a class="next" onclick="plusSlides(1)">❯</a>
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
                             
                             <div class="row">
@@ -79,31 +76,25 @@
                                 </div>
                             </div>
                         </div>
-                    </td>
-
-                    <th>
-                        Compétences
-                    </th>
-                </tr>
-
-                <tr>
-                    <td>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul> 
-                    </td>
-                </tr>
-
-                <tr>
-                    <td colspan="2">
-                        Magie &#10024;
-
-                    </td>
-                </tr>
-            </tbody>
+                        <div>
+                            <h3>Compétences</h3>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul> 
+                        </div>
+        </div>
+        
+        <table class="project">
+            <tr>
+                <td>
+                    Magie &#10024;
+                </td>
+            </tr>
         </table>
+        
+                        
         <br>
         <script>showSlides(1)</script>
         
