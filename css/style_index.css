@@ -4,8 +4,9 @@ h1 {
 
 .project {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 img {
@@ -15,7 +16,7 @@ img {
 
 .imgAccueil {
     width: 100%;
-    height: 800px;
+    height: auto;
     margin-top: 5px;
     opacity: 1;
     display: block;
