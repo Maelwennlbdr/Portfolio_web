@@ -30,6 +30,7 @@ footer {
 }
 
 header {
+    box-sizing: content-box;
     background-color: #D5BDAF;
     padding: 25px 25px 25px 25px;
     position: sticky;
