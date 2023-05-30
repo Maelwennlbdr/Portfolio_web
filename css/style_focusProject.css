@@ -14,7 +14,7 @@
 }
 
 .numbertext {
-    color: #463f3a;
+    color: #000000;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
@@ -36,7 +36,8 @@
 }
 
 .prev:hover,
-.next:hover {
+.next:hover,
+.numbertext {
     background-color: #EDEDE9;
     opacity: 0.5;
 }

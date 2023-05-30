@@ -7,6 +7,7 @@
 
         <link rel= "stylesheet" href="../css/style.css">
         <link rel= "stylesheet" href="../css/style_comissions.css">
+        <script type="text/javascript" src="../js/script_comissions.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
 
@@ -24,54 +25,82 @@
         <section>
             <h2>Vous souhaitez contacter l'artiste pour un projet ?</h2>
 
-            <fieldset>
-                <legend>Vos informations</legend>
-                <form action="/action_page.php" >
-                    <input type="checkbox" class = "case">
-                    <label for="Madame">Madame</label>
+            
+            <form method="post" name="ajoutPWD" action="#" class="box" id="addPWD" onsubmit="return false">
 
-                    <input type="checkbox" class = "case">
-                    <label for="Monsieur">Monsieur</label>
+                <fieldset>
+                    <legend>Vos informations</legend>
+                        <input type="checkbox" class = "case" name="Madame">
+                        <label for="Madame">Madame</label>
 
-                    <br> <br>
-                    <label for="lname">Nom :</label>
-                    <input type="text" class = "case">
-                    <label for="lname">Prénom :</label>
-                     <input type="text" class = "case">
-                     <br> <br>
-                    <label for="lname">Adresse mail :</label>
-                    <input type="text" class = "case">
-                </form>
-            </fieldset><br> 
+                        <input type="checkbox" class = "case" name="Monsieur">
+                        <label for="Monsieur">Monsieur</label>
 
-            <fieldset>
-                <legend>Votre projet</legend>
-                <form>
-                     <label for="lname" >Description courte :</label>
-                    <input type="text" class = "case">
-                    <br> <br>
-                    Type de projet :
-                    <select class = "case">
-                        <option value="" class = "case">--Please choose an option--</option>
-                        <option>personnel</option>
-                        <option>Professionel</option>
-                        <option>Associatif</option>
-                    </select><br>
-                </form>
-            </fieldset>
-        <br>
-    
-                <!-- <form class = "formSubmit">
-                    <input type="submit" value="Envoyer">
-                    <input type="reset" value="Annuler">
-                </form> -->
+                        <br> <br>
+                        <label for="lname">Nom :</label>
+                        <input type="text" class = "case" name="nom">
+                        <label for="lname">Prénom :</label>
+                        <input type="text" class = "case" name="prenom">
+                        <br> <br>
+                        <label for="lname">Adresse mail :</label>
+                        <input type="text" class = "case" name="mail">
+                </fieldset><br> 
+
+                <fieldset>
+                    <legend>Votre projet</legend>
+                        <label for="lname" >Description courte :</label>
+                        <input type="text" class = "case" name="description">
+                        <br> <br>
+                        Type de projet :
+                        <select class = "case" name="type">
+                            <option value="" class = "case">--Please choose an option--</option>
+                            <option value="Personnel">Personnel</option>
+                            <option value="Professionel">Professionel</option>
+                            <option value="Associatif">Associatif</option>
+                        </select><br>
+                </fieldset><br>
                 <div class="container">
-                    <button class="buttonCommision">Envoyer</button>
-                    <button class="buttonCommision">Annuler</button>
+                    <button id="add" class="buttonCommision" onclick="">Envoyer</button>
+                    <button id="supp" class="buttonCommision" type="reset" onclick="supprimer()">Annuler</button>
                 </div>
-           
-              <br><br>
+            </form>
+            <br><br>
+            
+            <main  class="box" id="addPWD">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4">Vos informations</th>
+                            <th colspan="2">Votre projet</th>
+                        </tr>
+                        <tr>
+                            <th>
+                                Civilité
+                            </th>
+                            <th>
+                                Nom
+                            </th>
+                            <th>
+                                Prénom
+                            </th>
+                            <th>
+                                Adresse mail
+                            </th>
+                            <th>
+                                Description courte
+                            </th>
+                            <th>
+                                Type de projet
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabBody">
+                    </tbody>
+                </table>
+            </main>
+            <br>
     </section>
+
         
         <footer>
             <table id="foot">
