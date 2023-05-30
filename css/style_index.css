@@ -3,14 +3,17 @@ h1 {
 }
 
 .project {
-    display: flex;
-    justify-content: space-around;
     overflow: auto;
     white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
 
 img {
     height: 256px;
+    width: auto;
 }
 
 
@@ -45,7 +48,7 @@ img {
 
 .text {
     padding: 16px 32px;
-    font-size: 20px;
+    font-size: 1.5vw;
     background-color: #463f3a;
     color: #EDEDE9;
     text-decoration: none;
@@ -61,4 +64,8 @@ img {
     color: #EDEDE9;
     text-decoration: none;
     text-align: center;
+}
+
+#enoraPicture {
+    height: 13vw;
 }
