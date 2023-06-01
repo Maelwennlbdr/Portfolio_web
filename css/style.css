@@ -57,3 +57,18 @@ header {
     height: 100px;
     float: right;
 }
+
+@media (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    #logo {
+        height: 60px;
+    }
+}
