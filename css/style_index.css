@@ -69,3 +69,10 @@ img {
 #enoraPicture {
     height: 13vw;
 }
+
+@media screen and (max-width: 1000px) {
+    img {
+        height: 200px;
+        width: auto;
+    }
+}
