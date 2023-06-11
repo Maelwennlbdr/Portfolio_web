@@ -52,3 +52,7 @@ table {
     border-color: #D5BDAF;
     text-align: center;
 }
+
+.box {
+    overflow-x: auto;
+}

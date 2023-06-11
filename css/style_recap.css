@@ -37,3 +37,7 @@ h1 {
 .c1 {
     padding: 7px;
 }
+
+section {
+    overflow-x: auto;
+}

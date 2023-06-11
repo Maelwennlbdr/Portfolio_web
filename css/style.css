@@ -45,8 +45,7 @@ header {
     cursor: pointer;
     text-decoration: none;
     margin: 4px 2px;
-    font-size: 20px;
-    cursor: pointer;
+    font-size: 20 px;
 }
 
 .button:hover {
@@ -56,4 +55,19 @@ header {
 #logo {
     height: 100px;
     float: right;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    #logo {
+        height: 60px;
+    }
 }
