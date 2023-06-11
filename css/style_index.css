@@ -2,6 +2,14 @@ h1 {
     color: #463f3a;
 }
 
+h2 {
+    font-size: 1.6vw;
+}
+
+#titleMobile {
+    display: none;
+}
+
 .project {
     overflow: auto;
     white-space: nowrap;
@@ -48,7 +56,7 @@ img {
 
 .text {
     padding: 16px 32px;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     background-color: #463f3a;
     color: #EDEDE9;
     text-decoration: none;
@@ -75,4 +83,18 @@ img {
         height: 200px;
         width: auto;
     }
+
+    #titlePC {
+        display: none;
+    }
+
+    #titleMobile {
+        display: block;
+        text-align: center;
+    }
+
+    .middle {
+        display: none;
+    }
+
 }
