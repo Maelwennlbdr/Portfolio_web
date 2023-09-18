@@ -7,11 +7,6 @@ body {
     font-family: Arial;
 }
 
-.header {
-    text-align: center;
-    padding: 32px;
-}
-
 .row {
     display: -ms-flexbox;
     /* IE10 */

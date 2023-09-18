@@ -45,6 +45,7 @@ header {
     padding: 25px 25px 25px 25px;
     position: sticky;
     height: 100px;
+    margin: 2px;
 }
 
 .header a {
