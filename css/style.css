@@ -20,6 +20,10 @@ footer {
     font-size: 15px;
 }
 
+.colFoot {
+    width: 50px;
+}
+
 #theadFoot {
     font-size: 20px;
 
