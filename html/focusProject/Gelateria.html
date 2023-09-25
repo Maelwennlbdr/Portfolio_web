@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <title>Gelateria</title>
+        <meta charset="UTF-8">
+
+        <link rel= "stylesheet" href="../../css/style.css">
+        <link rel= "stylesheet" href="../../css/style_focusProject.css">
+        <script type="text/javascript" src="../../js/script_focusProject.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="../../img/logo.png">
+    </head>
+
+    <body>
+        <header>
+            <div class="header">
+                <a href="../index.html" class="button">Accueil</a>
+                <div class="header-right">
+                    <a href="../portfolio.html" class="button">Portfolio</a>
+                    <a href="../recap.html" class="button">Récapitulatif des œuvres</a>
+                </div>
+                <img src="../../img/logo.png" id="logo">
+            </div>
+        </header>
+
+        <h1>Gelateria</h1>
+
+        <div class="fakeTable">
+            <div class="container">
+                <div class="projectPicture">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="../../img/Gelateria/CartedeFideliteVisite.png" class="picture">
+                </div>
+
+                <div class="projectPicture">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="../../img/Gelateria/ConoIncrust.png" class="picture">
+                </div>
+
+                <div class="projectPicture">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="../../img/Gelateria/Coppette_medie_beige.png" class="picture">
+                </div>
+
+                <div class="projectPicture">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="../../img/Gelateria/Logo-8.png" class="picture">
+                </div>
+
+                <div class="projectPicture">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="../../img/Gelateria/Capture_2023-09-16_132545.png" class="picture">
+                </div>
+
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="pictureGlimpse" src="../../img/Gelateria/CartedeFideliteVisite_small.png" onclick="currentSlide(1)">
+                    </div>
+                    <div class="column">
+                        <img class="pictureGlimpse" src="../../img/Gelateria/ConoIncrust_small.png" onclick="currentSlide(2)">
+                    </div>
+                    <div class="column">
+                        <img class="pictureGlimpse" src="../../img/Gelateria/Coppette_medie_beige_small.png" onclick="currentSlide(3)">
+                    </div>
+                    <div class="column">
+                        <img class="pictureGlimpse" src="../../img/Gelateria/Logo-8.png" onclick="currentSlide(4)">
+                    </div>
+                    <div class="column">
+                        <img class="pictureGlimpse" src="../../img/Gelateria/Capture_2023-09-16_132545_small.png" onclick="currentSlide(5)">
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <h3>Compétences</h3>
+                <ul>
+                    <li>Illustrator</li>
+                    <li>Photoshop</li>
+                    <li>Blender</li>
+                </ul>
+            </div>
+        </div>
+
+        <table class="project">
+            <tr>
+                <td>
+                    Aroma est un glacier artisanal. Créée par Flora après un séjour de plusieurs 
+                    années à Amalfi, l’accent de la marque se pose sur la bienveillance environnementale 
+                    et la source locale des produits. La marque se veut ludique, colorée et dans un esprit 70s.
+                    <h3>Processus</h3>
+                    <ul>
+                        <li>Croquis de recherche</li>
+                        <li>Réalisation du logotype</li>
+                        <li>Définition des couleurs</li>                        
+                        <li>Définition des typographies</li>
+                        <li>Préparation des supports de communication</li>
+                        <li>Modélisation 3D</li>
+                        <li>Mockup</li>
+                        <li>Insertions photoshop du logo</li>
+                        <li>Rédaction de la charte graphique</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        
+        <script>showSlides(1)</script>
+        
+        <footer>
+            <table id="foot">
+                <thead id="theadFoot">
+                    <tr>
+                        <th class="colFoot">Suivre l'Artiste</th>
+                        <th class="colFoot">Voir les oeuvres</th>
+                        <th class="colFoot">A propos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://www.instagram.com/enora.design.art/" class="aFoot">Instagram</a></td>
+                        <td><a href="../portfolio.html"class="aFoot">Portfolio</a></td>
+                        <td><a href="../aproposartiste.html"class="aFoot">Artiste</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.linkedin.com/in/enora-labidurie-132010197/"class="aFoot">Linkedin</a></td>
+                        <td><a href="../recap.html"class="aFoot">Récapitulatif des œuvres</a></td>
+                    </tr>
+                </tbody>
+                <tfoot id="tfootFoot">
+                    <tr>
+                        <td  colspan="3">
+                            Développeuse : Albane Coiffe & Maelwenn Labidurie
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </footer>
+    </body>
+</html>
