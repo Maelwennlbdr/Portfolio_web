@@ -2,35 +2,62 @@
 
 <html lang="fr">
     <head>
-        <title></title>
+        <title>L'artiste</title>
         <meta charset="UTF-8">
 
         <link rel= "stylesheet" href="../css/style.css">
         <link rel= "stylesheet" href="../css/style_aproposartiste.css">
+        <link rel="icon" href="../img/logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="../img/logo.png">
     </head>
 
     <body>
         <header>
-            <div>
-                <a href="../index.html" class="button">Accueil</a>
-                <a href="portfolio.html" class="button">Portfolio</a>
-                <a href="recap.html" class="button">Recapitulatif du projet</a>
+            <div class="header">
+                <a href="index.html" class="button">Accueil</a>
+                <div class="header-right">
+                    <a href="portfolio.html" class="button">Portfolio</a>
+                    <a href="recap.html" class="button">Récapitulatif des œuvres</a>
+                </div>
                 <img src="../img/logo.png" id="logo">
             </div>
         </header>
 
         <br/>
-        <table>
-            <tr>
-                <td><img id="enoraPicture" src="../img/enora_labidurie.jpg"></td>
-            </tr>
-            <tr>
-                <th>Enora Labidurie</th>
-            </tr>
-            <tr>
-                <td></td>
-            </tr>
-        </table>
+        <div class="fakeTable">
+            <img id="enoraPicture" src="../img/enora_labidurie.jpg">
+            <h3>Enora Labidurie</h3>
+            <div class="fakeRow">
+                <div>
+                    <h3>Formation</h3>
+                    <ul>
+                        <li>Février - Juillet 2023 : Erasmus Politecnico di Milano</li>
+                        <li>2021 - 2024 : Diplôme d'ingenieure en mécanique specialisation design industriel</li>
+                        <li>2019 - 2021 : Sciences et Technologies Pour l’Ingénieur (STPI)</li>
+                        <li>Juillet 2019 : Baccalauréat S-SVT général, spécialité physique-chimie</li>
+                    </ul>
+                    <img src="../img/logo ecole/polimi.png" class="logoEcole">
+                    <img src="../img/logo ecole/utc.png" class="logoEcole">
+                    <img src="../img/logo ecole/insa.png" class="logoEcole">
+                </div>
+                <div>
+                    <h3>Expériences</h3>
+                    <ul>
+                        <li>Août 2022 - Février 2023 : Stage ingénieure en conception de solutions pour la cyclologistique</li>
+                    </ul>
+                    <h3>Projet</h3>
+                    <ul>
+                        <li>2022 : Design industriel</li>
+                        <li>2022 : Reconception</li>
+                        <li>2022 : Conception mécanique</li>
+                        <li>2022 : Design graphique</li>
+                    </ul>
+                </div>
+
+            </div>
+            <a href="../img/CV_Enora_Labidurie.pdf" id="download" class="space" download>Télécharger un CV</a>
+        </div>
         <br/>
         
         
@@ -38,9 +65,9 @@
             <table id="foot">
                 <thead id="theadFoot">
                     <tr>
-                        <th>Suivre l'Artiste</th>
-                        <th>Voir les oeuvres</th>
-                        <th>A propos</th>
+                        <th class="colFoot">Suivre l'Artiste</th>
+                        <th class="colFoot">Voir les oeuvres</th>
+                        <th class="colFoot">A propos</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -51,13 +78,16 @@
                     </tr>
                     <tr>
                         <td><a href="https://www.linkedin.com/in/enora-labidurie-132010197/"class="aFoot">Linkedin</a></td>
-                        <td><a href="./focusProject.html"class="aFoot">Détail des projets</a></td>
-                        <td><a href="./apropos.html"class="aFoot">Développeuses</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="./comissions.html"class="aFoot">Comissions</a></td>
+                        <td><a href="./recap.html"class="aFoot">Récapitulatif des œuvres</a></td>
                     </tr>
                 </tbody>
+                <tfoot id="tfootFoot">
+                    <tr>
+                        <td  colspan="3">
+                            Développeuse : Albane Coiffe & Maelwenn Labidurie
+                        </td>
+                    </tr>
+                </tfoot>
             </table>
         </footer>
     </body>
